@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts (last updated v4.5.0) (token/ERC20/extensions/ERC20Burnable.sol)
-// This contract is a contract of ZENF token of Zenland. 
+// This contract is a contract of ZENF Utility token of Zenland. 
 
 
-pragma solidity 0.8.0;
+pragma solidity 0.8.9;
 
-import '@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol';
+import './ERC20Burnable.sol';
 
 
 contract ERC20PresetFixedSupply is ERC20Burnable {
